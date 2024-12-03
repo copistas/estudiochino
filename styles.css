@@ -1,0 +1,27 @@
+/* styles.css */
+
+:root {
+    --font-size: 24px; /* Tamaño de fuente inicial */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; /* Sin barras de desplazamiento */
+    position: relative; /* Define un contexto de posición */
+}
+
+.rectangle {
+    position: absolute; /* Permite movimiento libre */
+    background-color: lightgray;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: grab; /* Estilo del cursor para arrastre */
+    font-size: var(--font-size);
+    color: black;
+    top: 50%; /* Inicia centrado */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
