@@ -1,27 +1,26 @@
-/* styles.css */
-
-:root {
-    --font-size: 24px; /* Tamaño de fuente inicial */
-}
-
 body {
     margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden; /* Sin barras de desplazamiento */
-    position: relative; /* Define un contexto de posición */
+    overflow: hidden;
 }
 
 .rectangle {
-    position: absolute; /* Permite movimiento libre */
-    background-color: lightgray;
-    padding: 10px 20px;
-    border-radius: 8px;
-    cursor: grab; /* Estilo del cursor para arrastre */
-    font-size: var(--font-size);
-    color: black;
-    top: 50%; /* Inicia centrado */
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
+
+#rect1 {
+    top: 50px;
+    left: 50px;
+}
+
+#rect2 {
+    top: 200px;
+    left: 200px;
 }
