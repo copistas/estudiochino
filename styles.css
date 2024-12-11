@@ -24,3 +24,9 @@ body {
     top: 200px;
     left: 200px;
 }
+
+#namesOutput {
+    width: 180ch;
+    height: 3em;
+    resize: none; /* Evita el redimensionamiento manual si no es deseado */
+}
