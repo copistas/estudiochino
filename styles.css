@@ -5,14 +5,36 @@ body {
 
 .rectangle {
     position: absolute;
-    width: 100px;
-    height: 50px;
+    width: 20vw; /* 20% del ancho de la ventana */
+    height: 10vh; /* 10% de la altura de la ventana */
+    min-width: 100px;
+    min-height: 50px;
     background-color: lightblue;
     border: 2px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: grab;
+}
+
+#namesOutput {
+    border: 1px solid gray;
+    padding: 5px;
+    width: 180px;
+    height: 60px;
+    overflow-y: auto;
+    resize: none;
+}
+
+@media (max-width: 768px) { /* Para pantallas pequeñas */
+    .rectangle {
+        width: 80%; /* Rectángulos ocupan más espacio en dispositivos móviles */
+        height: auto;
+    }
+
+    #namesOutput {
+        font-size: 14px; /* Texto más pequeño en móviles */
+    }
 }
 
 #rect1 {

@@ -1,0 +1,23 @@
+Vamos a importar el archivo https://docs.google.com/spreadsheets/d/e/2PACX-1vRy8bFT5uxN-VZ-jeok48JRCxf-LOEJknEKTA3iXO1G5xc_s4HAIfIaOJHYNPtd7B9N0Ub5lbVSp-kE/pub?gid=0&single=true&output=csv 
+desde una variable alojada en el script llamada sourceCsv.
+
+En este nuevo desafío, la cantidad de rectángulos será la consultada a un archivo csv, 
+la cual determinará una cantidad de valores que tiene una linea con encabezamiento "ejercicio",
+sin contar el mismo como valor (por ejemplo, de la fila [ejercicio, "wo", "hen", "hao"] la cantidad de valores o cadenas para formar los rectángulos son 3).
+La linea encabezada por "ejercicio" será la número 2, 5, 8 y así sucesivamente sumándo 3.
+La selección de la práctica será una fila con ubicación 1, 4, 7 ... sumando de a 3, encabezada con "pinyin", 
+la siguiente hacia abajo encabezada por "ejercicio" y la tercera encabezada por "correcto". 
+Ese bloque de 3 filas encabezadas por "ejercicio" , "pinyin" y "correcto" será el área de practica.
+
+Esos valores van a estar encabezados por el primer valor de cada renglón, por ejemplo, la primer línea corresponde al encabezamiento pinyin, el segundo a ejercicio, etc. 
+De cada línea, la segunda fila encabezada por "ejercicio", va a ser el array que en este momento lo constituyen los días de la semana.
+Que el número de línea a distribuir en rectángulos, que se hará una por línea (por ejemplo, en caso de escoger la primer linea, el rectángulo 1 será 很 , el 2 será 热 y el tercero 今天) 
+
+
+
+la cantidad de rectángulos será la consultada en el archivo gramatica.csv, en el segundo bloque  (que el valor del lugar quede alojado en una variable), los valores seguidos al encabezado ejercicio.
+El archivo gramatica.csv está compuesto por bloques, cada bloque tiene 3 filas.
+Los encabezados de las filas son "pinyin" "ejercicio" y "correcto".
+
+
+
